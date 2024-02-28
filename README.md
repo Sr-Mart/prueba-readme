@@ -91,15 +91,15 @@ Ahora, usando la consola, escribimos el siguiente comando, después de ejecutar,
 
 Una vez dentro le daremos en Abrir un proyecto o una Solución e iremos a nuestra carpeta donde hemos clonado el repositorio, dentro le damos a Indigo.RIS.Backend y luego a Indigo.RIS.Backend.sln como en la imagen a continuación:
 
-¡[image solution](Images/back_sln.png)
+![image solution](Images/back_sln.png)
 
 Ya luego de que cargue todo el proyecto le daremos clic derecho a nuestra solucion y en Administrar paquetes NuGet, como veremos a continuación en la imagen:
 
-¡[image Nuget](Images/nuget.png)
+![image Nuget](Images/nuget.png)
 
 Ahora estando dentro del administrador de paquetes le daremos a restaurar
 
-¡[image Nuget](Images/restore.png)
+![image Nuget](Images/restore.png)
 
 ¡Listo! ya tenemos nuestro servicio configurado. Ahora nos encargamos de configurar el servicio en el iis
 
@@ -170,4 +170,4 @@ Accedemos al disco local C luego usuarios entramos a nuestro usuario y luego en 
 
 Una vez dentro le daremos en Abrir un proyecto o una Solución e iremos a nuestra carpeta donde hemos clonado el repositorio, dentro le damos a Indigo.RIS.Frontend y luego a Indigo.RIS.Frontend.sln como en la imagen a continuación:
 
-¡[image solution](Images/front_sln.png)
+![image solution](Images/front_sln.png)
