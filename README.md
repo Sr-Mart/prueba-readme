@@ -89,11 +89,11 @@ Ahora, usando la consola, escribimos el siguiente comando, después de ejecutar,
 
 ![image admin visual](Images/visual_admin.png)
 
-Una vez dentro le daremos en Abrir un proyecto o una Solución e iremos a nuestra carpeta donde hemos clonado el repositorio, dentro le damos a Indigo.RIS.Backend y luego a Indigo.RIS.Backend.sln como en la imagen a continuación
+Una vez dentro le daremos en Abrir un proyecto o una Solución e iremos a nuestra carpeta donde hemos clonado el repositorio, dentro le damos a Indigo.RIS.Backend y luego a Indigo.RIS.Backend.sln como en la imagen a continuación:
 
 ¡[image solution](Images/back_sln.png)
 
-Ya luego de que cargue todo el proyecto le daremos clic derecho a nuestra solucion y en Administrar paquetes NuGet, como veremos a continuación en la imagen
+Ya luego de que cargue todo el proyecto le daremos clic derecho a nuestra solucion y en Administrar paquetes NuGet, como veremos a continuación en la imagen:
 
 ¡[image Nuget](Images/nuget.png)
 
