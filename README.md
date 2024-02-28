@@ -32,7 +32,7 @@ Git es una herramienta que usaremos para el control de versiona miento de produc
 
 > ### 3. Descargaremos e instalaremos Azure CLI
 
-Después de descargar GIT, procedemos con Azure CLI. Para ello damos clic [Aqui](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli) y seguimos los pasos de instalación.  
+Después de descargar GIT, procedemos con Azure CLI. Para ello damos clic [Aquí](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli) y seguimos los pasos de instalación.  
 
 > ### 4. Agregamos la extensión Azure devops   
 Una vez tengamos instalado GIT y Azure CLI, abrimos la consola de comandos de GIT y agregamos el siguiente comando: 
@@ -49,11 +49,11 @@ Se abrirá el navegador pidiéndonos ingresar las credenciales. Se usan las cred
 
 Buscaremos en nuestro equipo Activar o desactivar las características de Windows
 
-![imagen iis](Imagen/activate.png)
+![imagen iis](Images/activate.png)
 
 Luego buscaremos la opción: Internet Information Services
 
-![imagen iis](Imagen/iis.png)
+![imagen iis](Images/iis.png)
 
 Luego de ya tener los cambios hechos vamos y abrimos el IIS
 
@@ -157,7 +157,7 @@ Si cuando se nos abre nuestro navegador y se nos muestra lo siguiente todo va a 
 
 ![image validate service](Images/localhost.png)
 
-En el caso que os salga un error podeis acceder a este enlace [Click Aquí](enlace) y descargar un rar de los paquetes nuget para el proyecto
+En el caso que os salga un error podeis acceder a este enlace clic [Aquí](enlace) y descargar un rar de los paquetes nuget para el proyecto
 
 Una ves lo descargan y lo descomprimen, lo copiaremos y pegaremos en la siguiente ruta:
 Accedemos al disco local C luego usuarios entramos a nuestro usuario y luego en la carpeta .nuget ahí pegaremos nuestra carpeta que descargamos y descomprimimos, en mi caso la ruta es: C:\Users\mlozano\.nuget
