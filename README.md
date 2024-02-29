@@ -1,6 +1,6 @@
 # ¿Que es Indira Ris?
 
-Imagine controlar eficientemente su compañía dando alcance y cumplimiento a los objetivos estratégicos de su organización en una sola herramienta, Indigo Vie es un completo ERP que apoya a las áreas administrativas, financieras y de recursos humanos.  
+Un sistema de información radiológica (RIS) es un sistema de software en red para gestionar imágenes médicas y datos asociados. Un RIS es especialmente útil para rastrear pedidos de imágenes de radiología e información de facturación, y a menudo se usa junto con sistemas de comunicación y archivo de imágenes (PACS) y archivos neutrales del proveedor (VNA) para administrar archivos de imágenes, facturación de registros y registros médicos electrónicos (EHR).
 
 ## Introducción
 
