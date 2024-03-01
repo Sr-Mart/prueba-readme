@@ -23,6 +23,7 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
 5. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
    
    5.1 [Abrir Visual Studio en modo administrador](#1-abrimos-visual-studio-en-modo-administrador)
+   
 9. [Configurando nuestro IIS](#configurando-nuestro-iis)
    6.1 [Crear un nuevo sitio en IIS](#1-crear-un-nuevo-sitio-en-iis)
    6.2 [Crear una aplicación dentro del sitio en IIS](#2-crear-una-aplicación-dentro-del-sitio-en-iis)
