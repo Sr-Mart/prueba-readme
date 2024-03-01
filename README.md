@@ -38,13 +38,13 @@ A continuación, le mostraremos como descargar e instalar las herramientas neces
 * [.NET](https://docs.microsoft.com/es-es/dotnet/fundamentals/) - Framework gratuito y de código abierto para los sistemas operativos Windows, Linux y macOS. Es un sucesor multiplataforma de .NET Framework. Se usa la versión 2.2. [Enlace de Descarga](https://versionsof.net/core/2.2/2.2.8/) 
 * DevExpress - herramienta que ofrece unas de las suits más completas de componentes de interfaz de usuario (UI) en todas las plataformas .NET tales como Windows Forms, MVC, ASP.NET, Silverlight y Windows XAML. Se usa la versión 20.1.8
 
-## Comenzamos! 🚀
+## Comenzamos
 
 Para esto debemos descargar el IDE el cual usaremos, llamado [**Visual Studio**](https://visualstudio.microsoft.com/es/downloads/, "Enlace de descarga") en la versión 2022. Luego realizaremos los siguientes pasos:
 
 ![imagen de descarga](Images/visual.png)
 
-> ### Instalación de Visual Studio
+> ## Instalación de Visual Studio
 
 Cuando estemos en los pasos de instalación, tener en cuenta estas opciones:
 
@@ -52,15 +52,15 @@ Cuando estemos en los pasos de instalación, tener en cuenta estas opciones:
 
 **Nota: Importante siempre ejecutar el visual en modo administrador**
 
-> ### Descarga e instalación de GIT
+> ## Descarga e instalación de GIT
 
 Git es una herramienta que usaremos para el control de versionamiento de producto, para descargarla damos clic [Aquí](https://git-scm.com/download/win) y seguimos los pasos del instalador.  
 
-> ### Descarga e instalación de Azure CLI
+> ## Descarga e instalación de Azure CLI
 
 Después de descargar GIT, procedemos con Azure CLI. Para ello damos clic [Aquí](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli) y seguimos los pasos de instalación.  
 
-> ### Agregación de la extensión Azure devops   
+> ## Agregación de la extensión Azure devops   
 
 Una vez tengamos instalado GIT y Azure CLI, abrimos la consola de comandos de GIT y agregamos el siguiente comando: 
 
