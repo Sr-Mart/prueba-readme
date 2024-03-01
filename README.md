@@ -6,22 +6,23 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
 
 1. [Introducción](#introducción)
 2. [Prerrequisitos](#prerrequisitos)
-3. [¡Comenzamos!](#comenzamos)
+3. [Comenzamos](#¡comenzamos!)
+   
    3.1 [Instalación de Visual Studio](#1-instalaremos-visual-studio)
    3.2 [Descarga e instalación de GIT](#2-descargaremos-e-instalaremos-git)
    3.3 [Descarga e instalación de Azure CLI](#3-descargaremos-e-instalaremos-azure-cli)
    3.4 [Agregación de la extensión Azure DevOps](#4-agregamos-la-extensión-azure-devops)
    3.5 [Activación de IIS (Administrador de Internet Information Services)](#5-activaremos-el-iis-administrador-de-internet-information-services)
-4. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
+5. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
    4.1 [Clonar el repositorio en nuestra ubicación deseada en el equipo](#1-clonamos-el-repositorio-en-nuestra-ubicación-deseada-en-el-equipo)
-5. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
+6. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
    5.1 [Abrir Visual Studio en modo administrador](#1-abrimos-visual-studio-en-modo-administrador)
-6. [Configurando nuestro IIS](#configurando-nuestro-iis)
+7. [Configurando nuestro IIS](#configurando-nuestro-iis)
    6.1 [Crear un nuevo sitio en IIS](#1-crear-un-nuevo-sitio-en-iis)
    6.2 [Crear una aplicación dentro del sitio en IIS](#2-crear-una-aplicación-dentro-del-sitio-en-iis)
    6.3 [Configuración de enlace https](#3-configuración-de-enlace-https)
-7. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-cómo-sabemos-que-nuestro-servicio-funciona)
-8. [Configuración de nuestro proyecto de la página web (Front-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-la-página-web-front-end-en-visual-studio)
+8. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-cómo-sabemos-que-nuestro-servicio-funciona)
+9. [Configuración de nuestro proyecto de la página web (Front-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-la-página-web-front-end-en-visual-studio)
 
 ## Introducción
 
