@@ -32,7 +32,7 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
    
    6.3 [Configuración de enlace https](#3-configuración-de-enlace-https)
    
-8. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-¿cómo-sabemos-que-nuestro-servicio-esta-funcionando?)
+8. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-cómo-sabemos-que-nuestro-servicio-está-funcionando)
    
 9. [Configuración de nuestro proyecto de la página web (Front-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-la-página-web-front-end-en-visual-studio)
 
@@ -181,7 +181,7 @@ Agregamos un enlace como se muestra a continuación:
 
 ![image port https](Images/port.png)
 
-### Ya tenemos el IIS configurado, pero ¿cómo sabemos que nuestro servicio esta funcionando?
+### Ya tenemos el IIS configurado, pero ¿cómo sabemos que nuestro servicio está funcionando?
 
 Nos ubicamos sobre nuestro Sitio llamado Indira, al lado derecho en alguno de nuestros 2 puertos que están en "Examinar sitio web" le damos clic
 
