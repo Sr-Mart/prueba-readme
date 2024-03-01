@@ -10,13 +10,13 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
    
    3.1 [Instalación de Visual Studio](#instalación-de-visual-studio)
    
-   3.2 [Descarga e instalación de GIT](#2-descargaremos-e-instalaremos-git)
+   3.2 [Descarga e instalación de GIT](#descarga-e-instalación-de-git)
    
-   3.3 [Descarga e instalación de Azure CLI](#3-descargaremos-e-instalaremos-azure-cli)
+   3.3 [Descarga e instalación de Azure CLI](#descarga-e-instalación-de-azure-cli)
    
-   3.4 [Agregación de la extensión Azure DevOps](#4-agregamos-la-extensión-azure-devops)
+   3.4 [Agregación de la extensión Azure DevOps](#agregación-de-la-extensión-azure-devops)
    
-   3.5 [Activación de IIS (Administrador de Internet Information Services)](#5-activaremos-el-iis-administrador-de-internet-information-services)
+   3.5 [Activación de IIS (Administrador de Internet Information Services)](#activación-de-iis-administrador-de-internet-information-services)
    
 5. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
    4.1 [Clonar el repositorio en nuestra ubicación deseada en el equipo](#1-clonamos-el-repositorio-en-nuestra-ubicación-deseada-en-el-equipo)
