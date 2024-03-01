@@ -6,13 +6,18 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
 
 1. [Introducción](#introducción)
 2. [Prerrequisitos](#prerrequisitos)
-3. [Comenzamos](#¡comenzamos!)
+3. [Comenzamos](#comenzamos)
    
    3.1 [Instalación de Visual Studio](#1-instalaremos-visual-studio)
+   
    3.2 [Descarga e instalación de GIT](#2-descargaremos-e-instalaremos-git)
+   
    3.3 [Descarga e instalación de Azure CLI](#3-descargaremos-e-instalaremos-azure-cli)
+   
    3.4 [Agregación de la extensión Azure DevOps](#4-agregamos-la-extensión-azure-devops)
+   
    3.5 [Activación de IIS (Administrador de Internet Information Services)](#5-activaremos-el-iis-administrador-de-internet-information-services)
+   
 5. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
    4.1 [Clonar el repositorio en nuestra ubicación deseada en el equipo](#1-clonamos-el-repositorio-en-nuestra-ubicación-deseada-en-el-equipo)
 6. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
@@ -33,7 +38,7 @@ A continuación, le mostraremos como descargar e instalar las herramientas neces
 * [.NET](https://docs.microsoft.com/es-es/dotnet/fundamentals/) - Framework gratuito y de código abierto para los sistemas operativos Windows, Linux y macOS. Es un sucesor multiplataforma de .NET Framework. Se usa la versión 2.2. [Enlace de Descarga](https://versionsof.net/core/2.2/2.2.8/) 
 * DevExpress - herramienta que ofrece unas de las suits más completas de componentes de interfaz de usuario (UI) en todas las plataformas .NET tales como Windows Forms, MVC, ASP.NET, Silverlight y Windows XAML. Se usa la versión 20.1.8
 
-## ¡Comenzamos! 🚀
+## Comenzamos! 🚀
 
 Para esto debemos descargar el IDE el cual usaremos, llamado [**Visual Studio**](https://visualstudio.microsoft.com/es/downloads/, "Enlace de descarga") en la versión 2022. Luego realizaremos los siguientes pasos:
 
