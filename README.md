@@ -24,7 +24,7 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
    
    5.1 [Abrir Visual Studio en modo administrador](#1-abrimos-visual-studio-en-modo-administrador)
    
-6. [Configurando nuestro IIS](#configuración-de-nuestro-iis)
+6. [Configurando nuestro IIS](#configurando-nuestro-iis)
 7. 
    6.1 [Crear un nuevo sitio en IIS](#1-crear-un-nuevo-sitio-en-iis)
    
@@ -137,7 +137,7 @@ Ahora estando dentro del administrador de paquetes le daremos a restaurar
 
 ¡Listo! ya tenemos nuestro servicio configurado. Ahora nos encargamos de configurar el servicio en el iis
 
-## Configurando de nuestro IIS
+## Configurando nuestro IIS
 
 Ahora solo nos queda configurar nuestro sitio IIS donde estarán alojados los servicios del RIS. Sigamos con los siguientes pasos.
 
