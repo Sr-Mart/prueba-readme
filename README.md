@@ -1,24 +1,44 @@
-# ¿Que es Indira Ris?
+# ¿Qué es Indira Ris?
 
 Un sistema de información radiológica (RIS) es un sistema de software en red para gestionar imágenes médicas y datos asociados. Un RIS es especialmente útil para rastrear pedidos de imágenes de radiología e información de facturación, y a menudo se usa junto con sistemas de comunicación y archivo de imágenes (PACS) y archivos neutrales del proveedor (VNA) para administrar archivos de imágenes, facturación de registros y registros médicos electrónicos (EHR).
 
+## Tabla de Contenido
+
+1. [Introducción](#introducción)
+2. [Prerrequisitos](#prerrequisitos)
+3. [¡Comenzamos!](#comenzamos)
+   3.1 [Instalación de Visual Studio](#1-instalaremos-visual-studio)
+   3.2 [Descarga e instalación de GIT](#2-descargaremos-e-instalaremos-git)
+   3.3 [Descarga e instalación de Azure CLI](#3-descargaremos-e-instalaremos-azure-cli)
+   3.4 [Agregación de la extensión Azure DevOps](#4-agregamos-la-extensión-azure-devops)
+   3.5 [Activación de IIS (Administrador de Internet Information Services)](#5-activaremos-el-iis-administrador-de-internet-information-services)
+4. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
+   4.1 [Clonar el repositorio en nuestra ubicación deseada en el equipo](#1-clonamos-el-repositorio-en-nuestra-ubicación-deseada-en-el-equipo)
+5. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
+   5.1 [Abrir Visual Studio en modo administrador](#1-abrimos-visual-studio-en-modo-administrador)
+6. [Configurando nuestro IIS](#configurando-nuestro-iis)
+   6.1 [Crear un nuevo sitio en IIS](#1-crear-un-nuevo-sitio-en-iis)
+   6.2 [Crear una aplicación dentro del sitio en IIS](#2-crear-una-aplicación-dentro-del-sitio-en-iis)
+   6.3 [Configuración de enlace https](#3-configuración-de-enlace-https)
+7. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-cómo-sabemos-que-nuestro-servicio-funciona)
+8. [Configuración de nuestro proyecto de la página web (Front-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-la-página-web-front-end-en-visual-studio)
+
 ## Introducción
 
-A continuación, le mostraremos como descargar e instalar las herramientas necesarias para obtener nuestra solución de Indira Ris. también a como configurar nuestro sitio de servicios donde se alojarán los webs services del RIS
+A continuación, le mostraremos como descargar e instalar las herramientas necesarias para obtener nuestra solución de Indira Ris, también a cómo configurar nuestro sitio de servicios donde se alojarán los webs services del RIS.
 
-#### Prerrequisitos 📋
+### Prerrequisitos 📋
 
-* [.NET](https://docs.microsoft.com/es-es/dotnet/fundamentals/) - Framework gratuito y de código abierto para los sistemas operativos Windows, Linux y macOS.  Es un sucesor multiplataforma de .NET Framework. Se usa la versión 2.2. [Enlace de Descarga](https://versionsof.net/core/2.2/2.2.8/) 
-
+* [.NET](https://docs.microsoft.com/es-es/dotnet/fundamentals/) - Framework gratuito y de código abierto para los sistemas operativos Windows, Linux y macOS. Es un sucesor multiplataforma de .NET Framework. Se usa la versión 2.2. [Enlace de Descarga](https://versionsof.net/core/2.2/2.2.8/) 
 * DevExpress - herramienta que ofrece unas de las suits más completas de componentes de interfaz de usuario (UI) en todas las plataformas .NET tales como Windows Forms, MVC, ASP.NET, Silverlight y Windows XAML. Se usa la versión 20.1.8
 
 ## ¡Comenzamos! 🚀
 
-Para esto debemos descargar el IDE el cual usaremos, llamado [**Visual Studio**](https://visualstudio.microsoft.com/es/downloads/, "Enlace de descarga") en la versión 2022. Luego realizaremos los siguientes pasos:  
+Para esto debemos descargar el IDE el cual usaremos, llamado [**Visual Studio**](https://visualstudio.microsoft.com/es/downloads/, "Enlace de descarga") en la versión 2022. Luego realizaremos los siguientes pasos:
 
 ![imagen de descarga](Images/visual.png)
 
-> ### 1. Instalaremos visual studio
+> ### Instalación de Visual Studio
 
 Cuando estemos en los pasos de instalación, tener en cuenta estas opciones:
 
@@ -26,26 +46,27 @@ Cuando estemos en los pasos de instalación, tener en cuenta estas opciones:
 
 **Nota: Importante siempre ejecutar el visual en modo administrador**
 
-> ### 2. Descargaremos e instalaremos GIT
+> ### Descarga e instalación de GIT
 
-Git es una herramienta que usaremos para el control de versiona miento de producto, para descargarla damos clic [Aquí](https://git-scm.com/download/win) y seguimos los pasos del instalador.  
+Git es una herramienta que usaremos para el control de versionamiento de producto, para descargarla damos clic [Aquí](https://git-scm.com/download/win) y seguimos los pasos del instalador.  
 
-> ### 3. Descargaremos e instalaremos Azure CLI
+> ### Descarga e instalación de Azure CLI
 
 Después de descargar GIT, procedemos con Azure CLI. Para ello damos clic [Aquí](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli) y seguimos los pasos de instalación.  
 
-> ### 4. Agregamos la extensión Azure devops   
+> ### Agregación de la extensión Azure devops   
+
 Una vez tengamos instalado GIT y Azure CLI, abrimos la consola de comandos de GIT y agregamos el siguiente comando: 
 
     az extension add --name azure-devops
 
-Luego de esto de agregar la extensión, verificamos la sesión en Azure CLI. Para ellos ejecutamos  
+Luego de esto de agregar la extensión, verificamos la sesión en Azure CLI. Para ello ejecutamos:
 
     az login
 
 Se abrirá el navegador pidiéndonos ingresar las credenciales. Se usan las credenciales corporativas (de correo)
 
-> ### 5. Activaremos el IIS (Administrador de Internet Information Services)
+> ### Activación de IIS (Administrador de Internet Information Services)
 
 Buscaremos en nuestro equipo Activar o desactivar las características de Windows
 
@@ -61,7 +82,7 @@ Luego de ya tener los cambios hechos vamos y abrimos el IIS
 
 Ya estamos listos para descargar el código de la aplicación.  
 
-> ### 1. Clonamos el repositorio en nuestra ubicación deseada en el equipo
+> ### Clonar el repositorio en nuestra ubicación deseada en el equipo
 
 En este caso lo haremos en la carpeta Indira que se encuentra ubicada en el escritorio
 
@@ -93,7 +114,7 @@ Una vez dentro le daremos en Abrir un proyecto o una Solución e iremos a nuestr
 
 ![image solution](Images/back_sln.png)
 
-Ya luego de que cargue todo el proyecto le daremos clic derecho a nuestra solucion y en Administrar paquetes NuGet, como veremos a continuación en la imagen:
+Ya luego de que cargue todo el proyecto le daremos clic derecho a nuestra solución y en Administrar paquetes NuGet, como veremos a continuación en la imagen:
 
 ![image Nuget](Images/nuget.png)
 
