@@ -8,7 +8,7 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
 2. [Prerrequisitos](#prerrequisitos)
 3. [Comenzamos](#comenzamos)
    
-   3.1 [Instalación de Visual Studio](#1-instalaremos-visual-studio)
+   3.1 [Instalación de Visual Studio](#instalación-de-visual-studio)
    
    3.2 [Descarga e instalación de GIT](#2-descargaremos-e-instalaremos-git)
    
