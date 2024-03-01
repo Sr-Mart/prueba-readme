@@ -18,17 +18,17 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
    
    3.5 [Activación de IIS (Administrador de Internet Information Services)](#activación-de-iis-administrador-de-internet-information-services)
    
-5. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
+4. [Clonación del repositorio del Ris](#ahora-procedemos-a-clonar-el-repositorio-del-ris)
    
-   4.1 [Clonar el repositorio en nuestra ubicación deseada en el equipo](#1-clonamos-el-repositorio-en-nuestra-ubicación-deseada-en-el-equipo)
-7. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
+5. [Configuración de nuestro proyecto de servicios (Back-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-servicios-back-end-en-visual-studio)
+   
    5.1 [Abrir Visual Studio en modo administrador](#1-abrimos-visual-studio-en-modo-administrador)
-8. [Configurando nuestro IIS](#configurando-nuestro-iis)
+9. [Configurando nuestro IIS](#configurando-nuestro-iis)
    6.1 [Crear un nuevo sitio en IIS](#1-crear-un-nuevo-sitio-en-iis)
    6.2 [Crear una aplicación dentro del sitio en IIS](#2-crear-una-aplicación-dentro-del-sitio-en-iis)
    6.3 [Configuración de enlace https](#3-configuración-de-enlace-https)
-9. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-cómo-sabemos-que-nuestro-servicio-funciona)
-10. [Configuración de nuestro proyecto de la página web (Front-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-la-página-web-front-end-en-visual-studio)
+10. [Validación del servicio](#ya-tenemos-el-iis-configurado-pero-cómo-sabemos-que-nuestro-servicio-funciona)
+11. [Configuración de nuestro proyecto de la página web (Front-End) en Visual Studio](#configuración-de-nuestro-proyecto-de-la-página-web-front-end-en-visual-studio)
 
 ## Introducción
 
