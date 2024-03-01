@@ -33,7 +33,7 @@ Un sistema de información radiológica (RIS) es un sistema de software en red p
 
 A continuación, le mostraremos como descargar e instalar las herramientas necesarias para obtener nuestra solución de Indira Ris, también a cómo configurar nuestro sitio de servicios donde se alojarán los webs services del RIS.
 
-### Prerrequisitos 📋
+## Prerrequisitos 📋
 
 * [.NET](https://docs.microsoft.com/es-es/dotnet/fundamentals/) - Framework gratuito y de código abierto para los sistemas operativos Windows, Linux y macOS. Es un sucesor multiplataforma de .NET Framework. Se usa la versión 2.2. [Enlace de Descarga](https://versionsof.net/core/2.2/2.2.8/) 
 * DevExpress - herramienta que ofrece unas de las suits más completas de componentes de interfaz de usuario (UI) en todas las plataformas .NET tales como Windows Forms, MVC, ASP.NET, Silverlight y Windows XAML. Se usa la versión 20.1.8
